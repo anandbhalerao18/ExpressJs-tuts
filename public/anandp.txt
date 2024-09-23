@@ -1,0 +1,1 @@
+this is the main public file in javascript

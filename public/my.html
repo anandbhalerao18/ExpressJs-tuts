@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing post request</title>
+</head>
+<body>
+    <script>
+        // for post request -->
+        // async function testPost(){
+         //   let a = await fetch("/",{method : "POST"} )
+        //    let b = await a.text()
+        //    console.log(b)
+        //}
+        //testPost();
+
+        // for put request
+        async function testPost(){
+            let a = await fetch("/",{method : "PUT"} )
+            let b = await a.text()
+            console.log(b)
+        }
+        testPost();
+    </script>
+</body>
+</html>
